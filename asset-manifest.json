@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/arko2/static/css/main.4df1e19e.css",
+    "main.js": "/arko2/static/js/main.358493bf.js",
+    "index.html": "/arko2/index.html",
+    "main.4df1e19e.css.map": "/arko2/static/css/main.4df1e19e.css.map",
+    "main.358493bf.js.map": "/arko2/static/js/main.358493bf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4df1e19e.css",
+    "static/js/main.358493bf.js"
+  ]
+}
