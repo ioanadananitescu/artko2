@@ -19,7 +19,7 @@ const Featured = ({ products }) => {
   useLayoutEffect(() => {
     setHeight(ref.current.clientHeight);
     setWidth(ref.current.clientWidth);
-  }) 
+  }, []) 
   console.log(height);
   console.log(width);
   console.log(ref.current);
