@@ -16,6 +16,16 @@ export default createTheme({
     background: {
       default: '#fff',
     },
-    },
+  },
+  components: {
+    MuiToolbar: {
+      styleOverrides: {
+               dense: {
+          height: 102,
+          minHeight: 102
+        }
+      }
+    }
     
-});
+  }
+})

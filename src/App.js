@@ -80,7 +80,7 @@ const App = () => {
                       <Route exact path="/" element={<Products products={products} onAddToCart={handleAddToCart}/> }>
            
                       </Route>
-                      <Route exact path="/home" element={<Home products={products}/>}>
+            <Route exact path="/home" element={<Home products={products} onAddToCart={handleAddToCart} />}>
                           
                       </Route>
                       <Route exact path="/featured" element={<Featured products={products}/>}>

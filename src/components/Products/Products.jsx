@@ -9,6 +9,8 @@ const Products = ({products, onAddToCart}) => {
   const classes=useStyles();
   return(
     <main className={classes.content}>
+      <div className={classes.toolbar}/>
+      
 
       {/* adding an empty div with the height equal to the 
             height of the toolbar so the products are pushed a little bit down */}
