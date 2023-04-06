@@ -56,7 +56,8 @@ if (!products) return <div>...loading</div>
                     justifyContent:'center',
                     bottom: 0,
                     width: '100%',
-                 padding:'20px'
+                    padding: '20px',
+                 mt:'20px'
                     }}>
                         <Button variant="contained" color="primary" className={classes.btn}>Something</Button>
                                         </Box>

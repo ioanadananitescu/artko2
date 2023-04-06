@@ -5,6 +5,7 @@ import './App.css';
 import {commerce} from '../src/lib/commerce';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import ProductAttributes from './components/ProductAttributes';
+import Upload from './components/Upload/Upload';
 
 
 const App = () => {
@@ -97,7 +98,8 @@ const App = () => {
              </Route>
                       <Route exact path="/checkout" element={<Checkout />}></Route>
                       <Route exact path="/attributes" element={<ProductAttributes />}></Route>
-                      <Route exact path='/paintings' element={<Paintings products={products} onAddToCart={handleAddToCart} />}></Route>
+            <Route exact path='/paintings' element={<Paintings products={products} onAddToCart={handleAddToCart} />}></Route>
+            <Route exact path='/uploadImage' element ={<Upload />}></Route>
           </Routes>
           
           
