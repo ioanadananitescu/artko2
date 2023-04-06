@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/artko2/static/css/main.4df1e19e.css",
-    "main.js": "/artko2/static/js/main.c56923cd.js",
+    "main.js": "/artko2/static/js/main.45bb6496.js",
     "index.html": "/artko2/index.html",
     "main.4df1e19e.css.map": "/artko2/static/css/main.4df1e19e.css.map",
-    "main.c56923cd.js.map": "/artko2/static/js/main.c56923cd.js.map"
+    "main.45bb6496.js.map": "/artko2/static/js/main.45bb6496.js.map"
   },
   "entrypoints": [
     "static/css/main.4df1e19e.css",
-    "static/js/main.c56923cd.js"
+    "static/js/main.45bb6496.js"
   ]
 }
