@@ -29,6 +29,12 @@ export const pages = [
         id: 7, 
         name: "Upload Fotos",
         path:"/uploadImage"
+    },
+
+    {
+        id: 8,
+        name: "Filter", 
+        path:"/filter"
     }
  
 ];

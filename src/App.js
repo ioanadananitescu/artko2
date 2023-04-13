@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 
-import {Navbar, Products, Cart, Checkout, Details, Featured, Home, Paintings} from './components';
+import {Navbar, Products, Cart, Checkout, Details, Featured, Home, Paintings, Filter} from './components';
 import './App.css';
 import {commerce} from '../src/lib/commerce';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
@@ -99,7 +99,8 @@ const App = () => {
                       <Route exact path="/checkout" element={<Checkout />}></Route>
                       <Route exact path="/attributes" element={<ProductAttributes />}></Route>
             <Route exact path='/paintings' element={<Paintings products={products} onAddToCart={handleAddToCart} />}></Route>
-            <Route exact path='/uploadImage' element ={<Upload />}></Route>
+            <Route exact path='/uploadImage' element={<Upload />}></Route>
+            <Route exact path='/filter' element={<Filter onAddToCart={handleAddToCart}/>}></Route>
           </Routes>
           
           

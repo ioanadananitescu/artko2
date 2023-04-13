@@ -9,3 +9,4 @@ export { default as Details } from './Details/Details';
 export { default as Featured } from './Featured/Featured';
 export { default as Home } from './Home/Home';
 export { default as Paintings } from './Paintings/Paintings';
+export { default as Filter } from './Filter/Filter';
